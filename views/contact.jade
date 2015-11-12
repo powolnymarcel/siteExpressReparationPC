@@ -1,0 +1,14 @@
+extends layout
+block content
+	form(method='post', action='contact/envoyer')
+		h1 Contact
+		.form-group
+			label Nom
+			input.form-control(type='text',name='nom',placeholder='Votre nom')
+		.form-group
+			label Email
+			input.form-control(type='email',name='email',placeholder='Votre email')
+		.form-group
+			label Message
+			textarea.form-control(name='message',placeholder='Votre message')
+		button.btn.btn-default(type='submit') Envoyer

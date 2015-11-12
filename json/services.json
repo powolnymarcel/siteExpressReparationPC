@@ -1,0 +1,17 @@
+[
+	{
+		"nom":"Réparation composants",
+		"description":" ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+		"prix":"€100 - €200"
+	},
+	{
+		"nom":"Nettoyage PC",
+		"description":"Risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+		"prix":"€150 - €200"
+	},
+	{
+		"nom":"Optimisation PC",
+		"description":"Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+		"prix":"€10 - €90"
+	}
+]

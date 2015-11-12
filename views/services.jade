@@ -1,0 +1,13 @@
+extends layout
+block content
+	h1 Services
+	.row
+		each service, i in donnees
+			.col-sm-6.col-md-4
+				.thumbnail
+					img(src='http://www.placehold.it/90x90', alt='...')
+					.caption
+						h3 #{service.nom}
+						p #{service.description}
+						p
+							a.btn.btn-primary(href='#', role='button') #{service.prix}

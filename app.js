@@ -5,8 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+//On ajoute les routes ici et à la ligne 27+
 var routes = require('./routes/index');
-var users = require('./routes/users');
+var a_propos = require('./routes/a_propos');
 
 var app = express();
 
@@ -23,7 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/a_propos', a_propos);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

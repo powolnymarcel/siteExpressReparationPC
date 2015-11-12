@@ -6,7 +6,7 @@ Site web avec express + emailling
 $ git clone <ce-repo>
 $ npm install
 $ bower install
-$ node server
+$ npm start  (il y a un script dans le package donc "npm start)
 ```
 
 
